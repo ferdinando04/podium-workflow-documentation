@@ -20,12 +20,21 @@ Implementar workflow n8n que cumpla 100% con los requerimientos de Don Jorge:
 
 ## 📊 FASES DE IMPLEMENTACIÓN
 
+### ⚪ FASE 0: LIMPIEZA INICIAL (NUEVO - CRÍTICO)
+
+- [ ] **PASO 0.1:** Eliminar nodo `📨 Gmail - ACK` (el que está al inicio)
+  - **Razón:** Cada departamento tendrá su propio ACK específico. Si dejamos el del inicio, el usuario recibiría 2 correos.
+  - **Acción:** Conectar directo `Code - Extractor` → `Code - Prep Agent`
+
+---
+
 ### 🔴 FASE 1: CODE EXTRACTOR (COMPLETADO ✅)
 
 - [x] Retornar array de items
 - [x] Extraer email limpio
 - [x] Parse date robusto
 - [x] Garantizar todos los campos
+
 
 ---
 

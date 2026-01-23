@@ -55,7 +55,7 @@ Limit Wait Time: 1 hour
     🔍 Code - Extractor
     (Extrae: remitente, asunto, cuerpo, apartamento, etc.)
          │
-         ↓
+         ↓ ⚠️ SIN ACK AQUÍ (Directo a Prep)
     📝 Code - Prep Agent
     (Prepara datos para IA)
          │
